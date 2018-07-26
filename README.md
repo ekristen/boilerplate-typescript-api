@@ -6,6 +6,13 @@ This is my boilerplate for using typescript to build out an http(s) service. Typ
 
 Pull requests to improve are always welcome, but I'm not interesting to making this cover all use cases, keep it simple is the idea here.
 
+## TODO
+
+* [ ] - Adding in JWT Authentication
+* [ ] - Document GraphQL Modifications
+* [ ] - Document Database Modifications (including Migrations)
+* [ ] - Document Adding Routes
+
 ## Getting Started
 
 To get started developing, you need to first run `npm install` after that `npm run watch` and start modifying code. The `watch` script fires up two nodemon processes concurrently. One watches for graphql schema change and re-renders the typescript necessary for it to work properly, and the second watches for any typescript or javascript file changes and reloads.
