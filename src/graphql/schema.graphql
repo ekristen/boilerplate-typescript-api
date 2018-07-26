@@ -1,0 +1,11 @@
+type Query {
+  base: Boolean
+}
+
+type Mutation {
+  base: Boolean
+}
+
+type Subscription {
+  baseChanged: Boolean
+}

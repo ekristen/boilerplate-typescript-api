@@ -1,0 +1,6 @@
+{
+  "watch": ["src/graphql"],
+  "ext": "graphql",
+  "ignore": ["*.ts"],
+  "exec": "npm run build:graphql"
+}
